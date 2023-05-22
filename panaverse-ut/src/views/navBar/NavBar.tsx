@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/assets/images/Logo.svg";
 import MenuItems from "@/components/navBar/MenuItems";
-import MenuDeopDown from "@/components/navBar/MenuDeopDown";
+import MenuDropDown from "@/components/navBar/MenuDropDown";
 import NavIconsButton from "./NavIconsButton";
 import PrimaryButton from "@/components/buttons/PrimaryButton";
 
@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="flex items-center gap-x-10 col-span-2">
         <MenuItems labelName="Home" link="/" />
         <MenuItems labelName="About" link="/" />
-        <MenuDeopDown labelName="Courses" />
+        <MenuDropDown labelName="Courses" />
         <MenuItems labelName="Contact" link="/" />
       </div>
       <div className="flex items-center space-x-10">

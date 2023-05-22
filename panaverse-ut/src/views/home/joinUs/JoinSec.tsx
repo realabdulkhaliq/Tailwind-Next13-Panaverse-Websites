@@ -1,5 +1,5 @@
 import Image from "next/image";
-import joinBg from "@/assets/images/joinus/joinBg.svg";
+import joinBg from "@/assets/images/joinus/JoinBg.svg";
 import PrimaryButton from "@/components/buttons/PrimaryButton";
 import JoinUSCard from "@/components/cards/JoinUSCard";
 import Person from "@/assets/images/icons/Person.svg";
